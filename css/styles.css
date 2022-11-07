@@ -1,0 +1,246 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --header-background: #ECECEC;
+    --main-background: #FFFFFF;
+    --title-color: #212121;
+    --contact-color: #757575;
+    --active-color: #2196F3;
+    --hero-background: #2F303A;
+    --body-background: #F5F5F5;
+    --command-background: #F5F4FA;
+    --portfolio: #EEEEEE;
+    --button-hover: #188CE8;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    background-color: var(--main-background);
+    color: var(--title-color);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+a {    
+    font-style: normal;
+}
+
+.header {
+    color: var(--contact-color);
+}
+
+.header-nav-link,
+.header-contact {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-nav-link {
+    color: var(--title-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1428;
+    letter-spacing: 0.02em;
+}
+
+.header-contact {
+    color: var(--contact-color);
+    font-size: 16px;
+    font-weight: 500
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus,
+.header-nav-link.current,
+.header-contact:hover,
+.header-contact:focus,
+.footer-nav-link:hover,
+.footer-nav-link:focus,
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-contacts:hover,
+.footer-contacts:focus {
+    color: var(--active-color);
+}
+
+.header-nav-link:active,
+.header-contact:active,
+.footer-adress:active,
+.footer-contacts:active,
+.footer-nav-link:active {
+    color: red;
+}
+
+.logo-web {
+    color: var(--active-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+}
+
+.logo-studio {
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+}
+
+.logo-studio-footer {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    color: var(--main-background);
+}
+
+.our-team{background-color: var(--command-background);}
+.section-title,
+.team-title {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+}
+
+.hero {
+    background-color: var(--hero-background);
+    color: var(--main-background);
+}
+
+.hero-h1 {
+    color: var(--main-background);
+    font-size: 44px;
+    line-height: 1.4;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+
+
+.header-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+    background: var(--active-color);
+    border: none;
+    border-radius: 4px;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+}
+
+.header-button:hover,
+.header-button:focus {
+    background-color: #188CE8;
+    color: white;
+}
+
+
+.feature {
+    background-color:
+        var(--main-background-color);
+}
+
+.feature-list {}
+
+.feature-title {
+    color: var(--title-text-color);
+    font-size: 14px;
+    line-height: 1.1428;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.feature-text {
+    line-height: 1.7142;
+    letter-spacing: 0.03em;
+    color: var(--contact-color);
+}
+
+.section-title .team-title {
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1666;
+    letter-spacing: 0.03em;
+}
+
+.team-name {
+    color: var(--title-text-color);
+    font-size: 16px;
+    line-height: 1.1875;
+    font-weight: 500;
+    text-align: center;
+}
+
+.team-work {
+    font-size: 16px;
+    line-height: 1.1875;
+    text-align: center;
+    color: var(--contact-color);
+}
+
+.footer-bottom {
+    background-color: var(--hero-background);
+}
+
+.footer-adress {
+    color: var(--main-background);
+}
+
+
+.footer-contacts {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.button {
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    background-color: var(--command-background);
+    color: var(--title-text-color);
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    font-family: Roboto, sans-serif;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    background-color: var(--active-color);
+    color: var(--main-background)
+}
+
+
+.projects-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.projects-text {
+    color: var(--contact-color);
+    font-size: 16px;
+    line-height: 1.9;
