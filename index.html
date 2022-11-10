@@ -7,82 +7,87 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
     <title>WebStudio</title>
 </head>
 <body>
 <header class="header-menu">
-    <div class="container link-item box">
-    <nav class="header-container box">
+<div class="container">
+    <nav class="header-container">
     <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio">Studio</span></a>
-
-        <ul class="header-nav box">
-            <li><a class="item header-nav-link current" href="./index.html">Студія</a></li>
-            <li><a class="item header-nav-link" href="./portfolio.html">Портфоліо</a></li>
+        <ul class="header-nav">
+            <li><a class="header-nav-link current" href="./index.html">Студія</a></li>
+            <li><a class="header-nav-link" href="./portfolio.html">Портфоліо</a></li>
             <li><a class="header-nav-link" href="#">Контакти</a></li>
         </ul>
-        <ul class="contact-nav box">
-            <li><a class="item header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="item header-contact" href="tel:+380961111111">tel:+38 096 111 11 11</a></li>
+        <ul class="contact-nav">
+            <li><a class="header-contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="header-contact" href="tel:+380961111111">tel:+38 096 111 11 11</a></li>
         </ul>
     </nav>
 </div>
 </header>
 <main>
-    <div class="container">
-    <section class="hero">
+    <div class="hero">
         <h1 class="hero-h1">Ефективні рішення для <br>вашого бізнесу</h1>
         <button class="header-button" type="button">Замовити послугу</button>
-    </section>
+    </div>
     <section class="feature">
+        <div class="container">
         <h2 hidden>Особливості</h2>
-        <ul class="feature-list box">
-            <li>
+        <ul class="feature-list">
+            <li class="future-item">
                 <h3 class="feature-title">Увага до деталей</h3>
                 <p class="feature-text">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
             </li>
-            <li>
+            <li class="future-item">
                 <h3 class="feature-title">Пунктуальність</h3>
                 <p class="feature-text">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
             </li>
-            <li>
+            <li class="future-item">
                 <h3 class="feature-title">Планування</h3>
                 <p class="feature-text">Так само консультація з широким активом значною мірою зумовлює.</p>
             </li>
-            <li>
+            <li class="future-item">
                 <h3 class="feature-title">Сучасні технології</h3>
                 <p class="feature-text">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
             </li>
         </ul>
+        </div>
     </section>
-    <section>
+    <section class="">
+        <div class="container">
         <h2 class="section-title">Чим ми займаємося</h2>
-        <ul class="list box">
-            <li><img src="./image/box1.jpg" alt="послуга1" width="370" height="294"></li>
-            <li><img src="./image/box2.jpg" alt="послуга2" width="370" height="294"></li>       
-            <li><img src="./image/box3.jpg" alt="послуга3" width="370" height="294"></li>
-        </ul>         
+        <ul class="box">
+            <li class="section-item"><img src="./image/box1.jpg" alt="послуга1" width="370" height="294"></li>
+            <li class="section-item"><img src="./image/box2.jpg" alt="послуга2" width="370" height="294"></li>       
+            <li class="section-item"><img src="./image/box3.jpg" alt="послуга3" width="370" height="294"></li>
+        </ul>
+        </div>         
     </section>
     <section class="our-team">
+        <div class="container">
         <h2 class="team-title">Наша команда</h2>
-        <ul class="list box">
-            <li><img src="./image/pers1.jpg" alt="Ігор Дем'яненко" width="270" height="260"> 
+        <ul class="box">
+            <li class="team-item"><img src="./image/pers1.jpg" alt="Ігор Дем'яненко" width="270" height="260"> 
             <h3 class="team-name">Ігор Дем'яненко</h3>
             <p class="team-work">Product Designer</p></li>
-            <li><img src="./image/pers2.jpg" alt="Ольга Рєпіна" width="270" height="260">   
+            <li class="team-item"><img src="./image/pers2.jpg" alt="Ольга Рєпіна" width="270" height="260">   
             <h3 class="team-name">Ольга Рєпіна</h3>
             <p class="team-work">Frontend Developer</p></li>
-            <li><img src="./image/pers3.jpg" alt="Микола Тарасов" width="270" height="260">       
+            <li class="team-item"><img src="./image/pers3.jpg" alt="Микола Тарасов" width="270" height="260">       
             <h3 class="team-name">Микола Тарасов</h3>
             <p class="team-work">Marketing</p></li>
-            <li><img src="./image/pers4.jpg" alt="Михайло Єрмаков" width="270" height="260">
+            <li class="team-item"><img src="./image/pers4.jpg" alt="Михайло Єрмаков" width="270" height="260">
             <h3 class="team-name">Михайло Єрмаков</h3>
             <p class="team-work">UI Designer</p></li>
         </ul>
+        </div>
     </section>
-    </div>
+
 </main>
-<footer class="footer-bottom">
+<footer class="footer">
     <div class="container">
     <a class="logo" href="./index.html"><span class="logo-web">Web</span><span class="logo-studio-footer">Studio</span></a>
     <address>
