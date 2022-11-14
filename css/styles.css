@@ -292,7 +292,7 @@ text-decoration: none;  }
 
 .footer-adress{
     color: var(--main-background);
-    margin-bottom: 9px;
+    margin-top: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -301,7 +301,7 @@ text-decoration: none;  }
 
 
 .footer-contacts {
-    margin-bottom: 9px;
+    margin-top: 9px;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -320,6 +320,13 @@ text-decoration: none;  }
 .portfolio-menu {
   border-bottom: 1px solid var(--portfolio);}   
 
+.portfolio-border{
+    padding: 20px 24px;
+	border-left: 1px solid var(--header-background);
+    border-right: 1px solid var(--header-background);
+    border-bottom: 1px solid var(--header-background);
+}
+
 .item {
   margin-left: 50px;}      
 
@@ -332,18 +339,16 @@ text-decoration: none;  }
   margin-left: 50px;}  
 
 .list-menu{
-    margin-left: 8px;
     margin-bottom: 34px;
     display: flex;
+    gap: 8px;
     justify-content: center;}
 
-.button-menu{display:flex; 
+.button-menu{
+    display:block; 
     align-items: center;
-    text-align: center;
-    display: block;
-    justify-content: center;
-    gap: 8px;}
-
+    text-align: center; 
+    border-radius: 4px;}
 
 
   .button {
